@@ -1,0 +1,19 @@
+{
+    "name": "drutz/secret-santa",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "drutz",
+            "email": "dimitri@drutz.ch"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^7.12",
+        "symfony/var-dumper": "^6.3"
+    }
+}
